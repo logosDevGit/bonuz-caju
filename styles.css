@@ -92,3 +92,25 @@ nav {
 .assistence .balloon-2 img {
     width: 582px;
 }
+
+.works .tracks  {
+    padding-top: 4rem;
+}
+.works .tracks .number {
+    font-weight: 700;
+    font-size: 78px;
+    color: #00E984;
+}
+.works .tracks h3 {
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 34px;
+    color: #E80537;
+}
+.works .tracks p {
+    font-size: 22px;
+}
+.works .track {
+    display: flex;
+    max-width: 706px;
+}
