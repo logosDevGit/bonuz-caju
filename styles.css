@@ -35,4 +35,17 @@ nav {
     align-items: center;
     justify-content: space-between;
     padding: 1rem 3.5rem;
+    position: sticky;
+    top: 0;
 }
+
+/* .welcome {
+    background-image: url('./images/welcomeBg.png');
+    background-size: cover;
+    height: 100vh;
+} */
+
+.swiper {
+    width: 600px;
+    height: 300px;
+  }
