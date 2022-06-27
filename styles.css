@@ -19,6 +19,11 @@ h1 {
     font-weight: 700;
     font-size: 48px;
 }
+h2 {
+    font-weight: 700;
+}
+
+p{font-size: 18px;}
 
 .btn-out-white {
     color: white;
@@ -50,8 +55,6 @@ nav {
     align-items: center;
     justify-content: space-between;
     padding: 1rem 3.5rem;
-    position: sticky;
-    top: 0;
 }
 
 .welcome {
@@ -72,4 +75,20 @@ nav {
 .swiper {
     width: 600px;
     height: 300px;
-  }
+}
+
+.assistence .balloon-1 {
+    background-image: url('./public/cajuDiscount.png');
+    width: 592px;
+    height: 390px;
+}
+
+.assistence strong {
+    color: #E80537;
+    font-weight: 700;
+    font-size: 24px;
+}
+
+.assistence .balloon-2 img {
+    width: 582px;
+}
