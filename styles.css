@@ -114,3 +114,10 @@ nav {
     display: flex;
     max-width: 706px;
 }
+.works .track.reverse{
+    display: flex;
+    max-width: 766px;
+    flex-direction: row-reverse;
+    margin-left: auto;
+    text-align: end;
+}
