@@ -232,6 +232,128 @@ nav {
     right: 35px;
 }
 
+.plans-container {
+    background-image: url('./public/plansBg.png');
+    background-size: cover;
+    padding: 3rem 0;
+}
+
+ .plans {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+  }
+   .plans .card{
+    width: 356px;
+    height: auto;
+    padding-bottom: 20px;
+    background-color: white;
+    box-shadow: 0px 2px 8px 2px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    text-align: center;
+    position: relative;
+    margin: 30px 12.5px 0 ;
+  
+  }
+   .plans .card .header{
+    background: #E80537;
+    border-radius: 8px 8px 0px 0px;
+    padding: 10px 4px;
+    margin-bottom: 20px;
+    position: relative;
+  }
+   .plans .card .header h1,
+   .plans .card .header h5,
+   .plans .card .header p {
+    color: white !important;
+    margin: 0px !important;
+  }
+
+  .plans .card .header h1 {
+      font-size: 24px;
+      padding-top: 6px;
+      margin: 0;
+  }
+  
+  .plans .card .header h5,
+  .plans .card .header p {
+    font-size: 16px;
+   }
+
+   .plans ul {
+    text-align: start;
+    list-style-type: none;
+    color: #4E4B59;
+    padding: 0px 18px 0;
+  }
+   .plans li {
+    margin: 5px 0;
+  }
+   .plans ul strong{
+    color: #E80537;
+  }
+   .plans .check img{
+    margin-right: 8px;
+  }
+   .plans .x img{
+    margin-right: 8px;
+  }
+  
+   .plans .value {
+    margin: 0 auto;
+  }
+  
+   .plans .position {
+    text-align: center;
+  }
+  
+   .plans .position p{
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    margin: 0;
+    color: #E80537;
+  }
+   .plans .position h3 {
+    font-size: 38px;
+    line-height: 150%;
+    color: #33303E;
+    font-weight: 700;
+  }
+   .plans .position small {
+    font-size: 13px;
+    line-height: 16px;
+    font-weight: 700;
+    margin: 16px 10px;
+    color: #4E4B59;
+  }
+  
+   .plans .value h5 {
+    font-size: 36px;
+  }
+  
+   .plans .value p,
+   .plans .value h5 {
+    color: #9997A0;
+    font-weight: 400;
+    margin: 0;
+    text-align: end;
+    margin-right: 80px;
+  }
+   .plans button, .plans button:hover, .plans button:focus{
+    border: none;
+    width: 80%;
+    background-color: #E80537;
+    color: white;
+    font-weight: 600;
+    font-size: 16px;
+    margin: 10px 20px 0;
+    padding: 10px;
+  }
+  
+
 footer {
     background-color: #192638;
     padding: 45px 0;
