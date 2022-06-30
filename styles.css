@@ -25,6 +25,10 @@ h2 {
 
 p{font-size: 18px;}
 
+.dn-desk {
+    display: none;
+}
+
 .btn-out-white {
     color: white;
     border: 2px solid #FFFFFF;
@@ -370,4 +374,41 @@ footer p {
 footer .termos, footer .termos a {
     color: #F14F5C;
     font-size: 16px;
+}
+
+@media all and (max-width: 1200px) {
+
+    h1 {
+        font-size: 28px;
+    }
+
+    .dn-desk {
+        display: block!important;
+    }
+
+    .dn-mobile {
+        display: none;
+    }
+
+    nav {
+        padding: 1rem 1.5rem;
+    }
+    nav .logo {
+        width: 200px;
+    }
+
+    .welcome {
+        height: auto;
+        padding-bottom: 100px;
+        text-align: center;
+        background-image: url('/public/bg-w-mobile.png') !important;
+    }
+    
+
+    .welcome .container {
+        flex-wrap: wrap;
+    }
+    .welcome img {
+        width: 300px;
+    }
 }
