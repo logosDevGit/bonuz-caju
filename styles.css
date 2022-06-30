@@ -381,6 +381,9 @@ footer .termos, footer .termos a {
     h1 {
         font-size: 28px;
     }
+    h2 {
+        font-size: 24px;
+    }
 
     .dn-desk {
         display: block!important;
@@ -404,11 +407,31 @@ footer .termos, footer .termos a {
         background-image: url('/public/bg-w-mobile.png') !important;
     }
     
-
     .welcome .container {
         flex-wrap: wrap;
     }
+
     .welcome img {
         width: 300px;
+    }
+
+    .assistence {
+        text-align: center;
+    }
+    .assistence .images{
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .assistence a {
+        margin: 0 auto;
+    }
+
+    .assistence .balloon-1 {
+        background-image: url('/public/cajuDiscountM.svg') !important;
+        background-size: cover
+    }
+
+    .assistence img, .assistence .balloon-1 {
+        width: 330px !important;
     }
 }
