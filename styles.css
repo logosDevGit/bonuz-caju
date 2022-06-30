@@ -452,7 +452,7 @@ footer .termos, footer .termos a {
     }
 
     .swiper {
-        width: 350px;
+        width: 345px;
         height: 300px;
     }
     .card {
@@ -483,4 +483,27 @@ footer .termos, footer .termos a {
         margin: auto !important;
         display: contents !important;
     }
+    .big-balloon {
+        height: 1000px;
+        align-items: center;
+        display: flex;
+    }
+
+    .big-balloon .balloon {
+        flex-wrap: wrap;
+        margin: 0 20px ;
+        height: 800px;
+    } 
+    .big-balloon .balloon img{
+        width: 100%;
+        border-radius: 16px 16px 0 0;
+    }
+
+    .plans .card {
+        width: 313px;
+    }
+    .plans .swiper {
+        height: 100%;
+    }
+
 }
