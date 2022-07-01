@@ -28,6 +28,15 @@ p{font-size: 18px;}
 .dn-desk {
     display: none !important;
 }
+.bg-red {
+    background-color: #E80537;
+    display: flex;
+    justify-content: flex-end;
+}
+.burguer {
+    background-color: transparent;
+    border: none;
+}
 
 .btn-out-white {
     color: white;
