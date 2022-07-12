@@ -426,6 +426,15 @@ footer .termos, footer .termos a {
 
 @media all and (max-width: 1200px) {
 
+    .modal .cards-grid {
+        display: grid;
+        justify-content: center;
+        align-items: center;
+        grid-template-columns: repeat(1, 240px);
+        gap: 30px;
+    }
+    
+
     h1 {
         font-size: 28px;
     }
