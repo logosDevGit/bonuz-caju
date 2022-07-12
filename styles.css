@@ -432,7 +432,7 @@ footer .termos, footer .termos a {
     }
 
     .assistence .balloon-1 {
-        background-image: url('/public/cajuDiscountM.svg') !important;
+        background-image: url('./public/cajuDiscountM.svg') !important;
         background-size: cover
     }
 
