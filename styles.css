@@ -222,6 +222,31 @@ nav {
 
 .cards .card ul::-webkit-scrollbar-button {display:none}
 
+/* Modal */
+
+.modal .cards-grid {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    grid-template-columns: repeat(3, 240px);
+    gap: 30px;
+}
+
+.modal .card {
+    width: 240px;
+}
+.modal .card li{
+    padding: 0 30px;
+}
+
+.modal-dialog {
+    max-width: 900px!important;
+}
+.modal-content {
+    padding: 10px;
+}
+
+
 .big-balloon {
     background-image: url('/public/retang.png');
     width: 100%;
